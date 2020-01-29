@@ -1,13 +1,14 @@
+import Helpers.Parser;
 import org.testng.annotations.Test;
+import test.BaseTest;
 
-import javax.xml.xpath.XPathExpressionException;
-
-public class HPTest extends BaseTest{
+public class HPTest extends BaseTest {
 
 
     @Test
-    public void authorization(){
+    public void authorization() {
         HomePage homePage = new HomePage(driver);
-//        homePage.autorization(UserData.LOGIN_ADMIN.getValue(), UserData.PASS_ADMIN.getValue());
+        homePage.autorization(Parser.getLoginValue(), Parser.getPassValue());
     }
+
 }

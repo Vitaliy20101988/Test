@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auth>
-    <step step="1">
+    <Step step="1">
         <action>openURI</action>
         <params>
             <url>https://shorinji-kempo.org.ua</url>
         </params>
         <description>Open Home page</description>
+    </Step>
 
-    </step>
     <Step step="2">
         <action>setValue</action>
         <params>
@@ -15,8 +15,8 @@
             <value>Виталик</value>
         </params>
         <description>write valid value in input field Login</description>
-
     </Step>
+
     <Step step="3">
         <action>setValue</action>
         <params>
@@ -24,8 +24,8 @@
             <value>20101988</value>
         </params>
         <description>write valid value in input field Password</description>
-
     </Step>
+
     <Step step="4">
         <action>click</action>
         <params>

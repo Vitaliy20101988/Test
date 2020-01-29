@@ -1,0 +1,32 @@
+{
+    "fitcha": [
+        {"action": "openURI",
+          "params": {
+              "url": "https://shorinji-kempo.org.ua"
+          },
+          "description": "Open Home page"
+        },
+        {"action": "setValue",
+          "params":
+            {"selector" : "modlgn-username",
+             "value" : "Виталик"
+            },
+          "description": "write valid value in input field Login"
+       },
+
+        {"action": "setValue",
+        "params":
+         {"selector": "modlgn-passwd",
+         "value": "20101988"
+         },
+
+       "description": "write valid value in input field Password"
+      },
+       {"action": "click",
+        "params": {
+          "selector": "Submit"
+        },
+        "description": "Click btn Login"
+      }
+    ]
+ }

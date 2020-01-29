@@ -13,15 +13,15 @@ public class BasePage {
 
     }
 //
-//    //Click Method
-//    public void clickElement(By elementBy) {
-//        driver.findElement(elementBy).click();
-//    }
-//
-//    //Send Keys
-//    public void sendKeys(By elementBy, String value) {
-//        driver.findElement(elementBy).sendKeys(value);
-//    }
+    //Click Method
+    public void clickElement(By elementBy) {
+        driver.findElement(elementBy).click();
+    }
+
+    //Send Keys
+    public void sendKeys(By elementBy, String value) {
+        driver.findElement(elementBy).sendKeys(value);
+    }
 //
 ////    Assert//
 ////    public void AssertEqualURLs(String currentUrl, String expectedURL) {
